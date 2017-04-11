@@ -1,0 +1,117 @@
+.img-responsive{
+  width: 100%;
+}
+body{
+  font-family: 'lato';
+  color: #111;
+  position: relative;
+  overflow-x: hidden;
+}
+::selection{
+  background: #873fb5;
+  color: #fff;
+}
+::-moz-selection{
+  background: #873fb5;
+  color: #fff;
+}
+strong{
+  font-weight: 900;
+}
+p{
+  line-height: 24px;
+  font-weight: 300;
+}
+a, a:focus{
+  color: #873fb5;
+}
+a:hover{
+  color: #41135f;
+  text-decoration: none;
+}
+section{
+  padding: 50px 0;
+}
+hr{
+  width: 85px;
+}
+hr.icon:after{
+  content: "\f123";
+  font-family: "FontAwesome";
+  color: #873fb5;
+  font-size: 1.5em;
+  background-color: white;
+  top: -0.8em;
+  position: relative;
+  padding: .30em;
+}
+.section-heading{
+  color: #873fb5;
+}
+.section-heading h3{
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+.section-heading hr{
+  border-color: #873fb5;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+/*------------------------------------------------------------------------*/
+#home{
+  background: linear-gradient(0deg,rgba(204, 0, 204,0.3),rgba(204, 0, 204,0.3)),url(../images/lights.jpg) fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 600px;
+  /*box-shadow:inset 0 0 0 2000px rgba(255, 255, 153, 0.3);*/
+}
+.logo{
+  font-size: 72px;
+  font-weight: 100;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding: 0 20px 15px 20px;
+}
+#home h3{
+  font-weight: 300;
+  margin: 0;
+}
+#home .learn-more{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+}
+.learn-more .fa{
+  position: absolute;
+}
+.learn-more .second{
+  top: 8px;
+}
+.learn-more .third{
+  top: 16px;
+}
+.vertical-align{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*------------------------------------------------------------------------*/
+#about{
+  background: linear-gradient(0deg,rgba(204, 0, 204,0.3),rgba(204, 0, 204,0.3)),url(../images/lily.jpg) fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 440px;
+}
+#about h3{
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+#about h4{
+  font-weight: 300;
+  padding: 0 20%;
+}
