@@ -83,9 +83,13 @@ hr.icon:after{
   color: white;
   font-size: 30px;
   position: absolute;
+  margin-top: 15px;
 }
 .learn-more .fa{
   position: absolute;
+}
+.learn-more .fa:hover{
+  color: #c1c1c1;
 }
 .learn-more .second{
   top: 8px;
@@ -114,4 +118,29 @@ hr.icon:after{
 #about h4{
   font-weight: 300;
   padding: 0 20%;
+}
+/*------------------------------------------------------------------------*/
+.service-item{
+  margin-bottom: 40px;
+}
+.service-item i{
+  color: #c1c1c1;
+  font-size: 48px;
+  float: left;
+  border-right: 1px solid #873fb5;
+  padding-right: 20px;
+}
+.service-title{
+  margin-left: 20px;
+  margin-top: -24px;
+  display: inline-block;
+}
+.service-title h3{
+  color: #111;
+  font-weight: 900;
+}
+.service-title h4{
+  color: #873fb5;
+  font-weight: 300;
+  margin-top: -10px;
 }
