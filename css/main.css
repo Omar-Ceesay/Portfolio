@@ -204,7 +204,6 @@ hr.icon:after{
 }
 .portfolio-thumb, .portfolio-overlay{
   height: 375px;
-  max-width: 390px;
 }
 #portfolio .portfolio-thumb img{
   width: 100%;
