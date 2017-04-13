@@ -33,7 +33,7 @@ section{
   padding: 50px 0;
 }
 hr{
-  width: 85px;
+  width: 95px;
 }
 hr.icon:after{
   content: "\f123";
@@ -43,7 +43,9 @@ hr.icon:after{
   background-color: white;
   top: -0.8em;
   position: relative;
-  padding: .30em;
+  padding: .1em .2em;
+  border: 1px solid #873fb5;
+  border-radius: 2px;
 }
 .section-heading{
   color: #873fb5;
@@ -107,7 +109,6 @@ hr.icon:after{
 #about{
   background: linear-gradient(0deg,rgba(204, 0, 204,0.3),rgba(204, 0, 204,0.3)),url(../images/lily.jpg) fixed;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   color: #fff;
   height: 440px;
@@ -262,30 +263,145 @@ hr.icon:after{
   font-weight: 300;
 }
 .code{
-  background: linear-gradient(0deg,rgba(264, 0, 264,0.3),rgba(264, 0, 264,0.3)),url(../images/codes.jpg);
+  background: linear-gradient(0deg,rgba(224, 0, 224,0.55),rgba(224, 0, 224,0.3)),url(../images/codes.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
   background-size: cover;
 }
 .projects{
-  background: linear-gradient(0deg,rgba(264, 0, 264,0.3),rgba(264, 0, 264,0.3)),url(../images/projects.jpg);
+  background: linear-gradient(0deg,rgba(224, 0, 224,0.55),rgba(224, 0, 224,0.3)),url(../images/projects.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
   background-size: cover;
 }
 .clients{
-  background: linear-gradient(0deg,rgba(264, 0, 264,0.3),rgba(264, 0, 264,0.3)),url(../images/clients.jpg);
+  background: linear-gradient(0deg,rgba(224, 0, 224,0.55),rgba(224, 0, 224,0.3)),url(../images/clients.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
   background-size: cover;
 }
 .feedback{
-  background: linear-gradient(0deg,rgba(264, 0, 264,0.3),rgba(264, 0, 264,0.3)),url(../images/feedback.jpg);
+  background: linear-gradient(0deg,rgba(224, 0, 224,0.55),rgba(224, 0, 224,0.3)),url(../images/feedback.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
   background-size: cover;
+}
+/*------------------------------------------------------------------------*/
+#quotes{
+  background: linear-gradient(0deg,rgba(254, 0, 254,0.3),rgba(254, 0, 254,0.3)),url(../images/quotesBack.jpg) fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  height: 440px;
+  position: relative;
+}
+/*------------------------------------------------------------------------*/
+#contact{
+  /*background: linear-gradient(0deg,rgba(254, 0, 254,0.3),rgba(254, 0, 254,0.3)),url(../images/quotesBack.jpg) fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;*/
+  height: auto;
+  position: relative;
+}
+.form-control{
+  height: 45px;
+  padding: 15px;
+  font-size: 16px;
+  color: #8c8c8c;
+  background-color: #f5f5f5;
+  border: 1px solid #d1d1d1;
+  box-shadow: none;
+  font-weight: 300;
+}
+.form-control:focus{
+  color: #793a93;
+  box-shadow: none;
+  border-color: #793a93;
+  background-color: #fff;
+}
+.form-control::-moz-placeholder{
+  color: #8c8c8c;
+}
+.form-control:focus::-moz-placeholder{
+  color: #793a93;
+}
+.form-control::-ms-input-placeholder{
+  color: #8c8c8c;
+}
+.form-control:focus::-ms-input-placeholder{
+  color: #793a93;
+}
+.form-control::-webkit-input-placeholder{
+  color: #8c8c8c;
+}
+.form-control:focus::-webkit-input-placeholder{
+  color: #793a93;
+}
+/*------------------------------------------------------------------------*/
+footer{
+  background: #773a95;
+  background: -moz-linear-gradient(left, #773a95 0%, #8d4563 100%);
+  background: -webkit-linear-gradient(left, #773a95 0%,#8d4563 100%);
+  background: linear-gradient(to right, #773a95 0%,#8d4563 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#773a95', endColorstr='#8d4563',GradientType=1 );
+  color: #fff;
+  padding: 50px 0;
+}
+#footer .logo{
+  font-size: 50px;
+  padding: 0 20px 10px 20px;
+}
+#footer ul{
+  padding-left: 0;
+  margin-top: 10px;
+}
+#footer ul li{
+  display: inline-block;
+}
+#footer ul a{
+  font-size: 30px;
+  color: #fff;
+  padding: 0 10px;
+}
+#footer ul a:hover{
+  color: #8c8c8c;
+}
+.copyright{
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 0;
+}
+/*------------------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1200px){
+  .service-item i{
+    float: none;
+    border: none;
+    display: block;
+  }
+  .service-item{
+    text-align: center;
+  }
+  .service-title{
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+@media (max-width: 991px){
+  .google-map{
+    margin-top: 20px;
+  }
+  #about{
+    background-position: center;
+  }
 }
