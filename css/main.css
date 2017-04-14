@@ -405,3 +405,8 @@ footer{
     background-position: center;
   }
 }
+/*@media (min-height: 600px){
+  #home{
+    height: 951px;
+  }
+}*/

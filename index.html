@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
+    <link href="css/lightbox.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,500" rel="stylesheet">
@@ -27,10 +28,10 @@
       <div class="container text-center vertical-align overlay">
         <h1 class="logo wow fadeIn">the<strong>Setup</strong></h1>
         <h3 class="wow fadeIn" data-wow-delay="0.5s">A response, singlepage, HTML5 Bootstrap application <br>Created by <strong>Omar Ceesay</strong>.</h3>
-        <a href="#about" class="learn-more wow fadeIn" data-wow-delay="0.5s">
-          <i class="fa fa-angle-down third" aria-hidden="true"></i>
-          <i class="fa fa-angle-down second" aria-hidden="true"></i>
-          <i class="fa fa-angle-down first" aria-hidden="true"></i>
+        <a href="#about" class="learn-more">
+          <i class="fa fa-angle-down third wow fadeIn" data-wow-delay="2.0s" aria-hidden="true"></i>
+          <i class="fa fa-angle-down second wow fadeIn" data-wow-delay="1.5s" aria-hidden="true"></i>
+          <i class="fa fa-angle-down first wow fadeIn" data-wow-delay="1.0s" aria-hidden="true"></i>
         </a>
       </div>
     </header>
@@ -190,7 +191,7 @@
                 <div class="vertical-align">
                   <h2>Project One</h2>
                 </div>
-                <a href="#">
+                <a href="images/node.jpg" data-lightbox="image" data-title="My caption">
                   <i class="fa fa-search"></i>
                 </a>
               </div>
@@ -203,7 +204,7 @@
                 <div class="vertical-align">
                   <h2>Project Two</h2>
                 </div>
-                <a href="#">
+                <a href="images/pic2.jpg"  data-lightbox="image" data-title="My caption">
                   <i class="fa fa-search"></i>
                 </a>
               </div>
@@ -216,7 +217,7 @@
                 <div class="vertical-align">
                   <h2>Project Three</h2>
                 </div>
-                <a href="#">
+                <a href="images/pic3.jpg"  data-lightbox="image" data-title="My caption">
                   <i class="fa fa-search"></i>
                 </a>
               </div>
@@ -229,7 +230,7 @@
                 <div class="vertical-align">
                   <h2>Project Four</h2>
                 </div>
-                <a href="#">
+                <a href="images/pic4.jpg"  data-lightbox="image" data-title="My caption">
                   <i class="fa fa-search"></i>
                 </a>
               </div>
@@ -242,7 +243,7 @@
                 <div class="vertical-align">
                   <h2>Project Five</h2>
                 </div>
-                <a href="#">
+                <a href="images/pic5.jpg"  data-lightbox="image" data-title="My caption">
                   <i class="fa fa-search"></i>
                 </a>
               </div>
@@ -255,7 +256,7 @@
                 <div class="vertical-align">
                   <h2>Project Six</h2>
                 </div>
-                <a href="#">
+                <a href="images/pic6.jpg"  data-lightbox="image" data-title="My caption">
                   <i class="fa fa-search"></i>
                 </a>
               </div>
@@ -386,5 +387,6 @@
     <script>
     new WOW().init();
     </script>
+    <script src="js/lightbox.js"></script>
   </body>
 </html>
