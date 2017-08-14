@@ -7,6 +7,9 @@ body{
   position: relative;
   overflow-x: hidden;
 }
+.indent{
+  margin-left: 50px;
+}
 ::selection{
   background: #873fb5;
   color: #fff;
@@ -113,13 +116,13 @@ hr.icon:after{
   color: #fff;
   height: 440px;
 }
-#about h3{
+#about h2{
   font-weight: 300;
   letter-spacing: 3px;
 }
-#about h4{
+#about h3{
   font-weight: 300;
-  padding: 0 20%;
+  padding: 0 10%;
 }
 /*------------------------------------------------------------------------*/
 .service-item{
@@ -198,6 +201,13 @@ hr.icon:after{
   font-weight: 900;
   font-size: 16px;
   text-transform: uppercase;
+}
+.subprogress-bar{
+  background: #773a95;
+  background: -moz-linear-gradient(left, #ffaf4b 0%, #ff920a 100%);
+  background: -webkit-linear-gradient(left, #ffaf4b 0%,#ff920a 100%);
+  background: linear-gradient(to right, #ffaf4b 0%,#ff920a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#773a95', endColorstr='#8d4563',GradientType=1 );
 }
 /*------------------------------------------------------------------------*/
 #portfolio .col-md-4{
@@ -383,7 +393,7 @@ footer{
   padding: 5px 0;
 }
 /*------------------------------------------------------------------------*/
-@media (min-width: 992px) and (max-width: 1200px){
+@media (min-width: 769px) and (max-width: 1200px){
   .service-item i{
     float: none;
     border: none;
